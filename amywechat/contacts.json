@@ -1,0 +1,81 @@
+[
+    {
+        "title": "G",
+        "content": [
+            {
+            "name": "Group Chats",
+            "image": "icon_00"
+            },
+            {
+            "name": "Games",
+            "image": "icon_07"
+            }
+        ]
+    },
+    {
+        "title": "M",
+        "content": [
+            {
+                "name": "Moments",
+                "image": "icon_00"
+            },
+            {
+                "name": "Mini Programs",
+                "image": "icon_08"
+            },
+            {
+                "name": "Message in a Bottle",
+                "image": "icon_06"
+            }
+        ]
+    },
+    {
+        "title": "O",
+        "content": [
+            {
+                "name": "Official Accounts",
+                "image": "icon_00"
+            }
+        ]
+    },
+    {
+        "title": "P",
+        "content": [
+            {
+                "name": "People Nearby",
+                "image": "icon_05"
+            }
+        ]
+    },
+    {
+        "title": "P",
+        "content": [
+            {
+                "name": "Scan",
+                "image": "icon_01"
+            },
+            {
+                "name": "Shake",
+                "image": "icon_02"
+            },
+            {
+                "name": "Search",
+                "image": "icon_04"
+            }
+        ]
+    },
+    {
+        "title": "P",
+        "content": [
+            {
+                "name": "Top Storis",
+                "image": "icon_03"
+            },
+            {
+                "name": "Tags",
+                "image": "icon_00"
+            }
+        ]
+    }
+]
+

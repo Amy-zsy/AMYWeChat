@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2449F8F3CDD13AAFADC5CD85 /* libPods-amywechatUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9A92EFCAEE5B6CF091BB91 /* libPods-amywechatUITests.a */; };
+		AB70FB21E552BC6CA1E1A464 /* libPods-amywechatTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A773CE5C8576C91F15D8C6F7 /* libPods-amywechatTests.a */; };
+		D460EFD71A62ED8F27F3A704 /* libPods-amywechat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD6EDD8503AA24E5B61BE0F /* libPods-amywechat.a */; };
+		E1F963FD2258DE0600DA041A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F963FC2258DE0600DA041A /* AppDelegate.m */; };
+		E1F964002258DE0600DA041A /* AMYDataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F963FF2258DE0600DA041A /* AMYDataLoader.m */; };
+		E1F964032258DE0600DA041A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F964012258DE0600DA041A /* Main.storyboard */; };
+		E1F964052258DE0A00DA041A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1F964042258DE0A00DA041A /* Assets.xcassets */; };
+		E1F964082258DE0A00DA041A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F964062258DE0A00DA041A /* LaunchScreen.storyboard */; };
+		E1F9640B2258DE0A00DA041A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F9640A2258DE0A00DA041A /* main.m */; };
+		E1F964152258DE0A00DA041A /* amywechatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F964142258DE0A00DA041A /* amywechatTests.m */; };
+		E1F964202258DE0A00DA041A /* amywechatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F9641F2258DE0A00DA041A /* amywechatUITests.m */; };
+		E1F964352258E16000DA041A /* AMYChatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F964342258E16000DA041A /* AMYChatsViewController.m */; };
+		E1F9643B2258E20D00DA041A /* AMYDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F9643A2258E20D00DA041A /* AMYDiscoverViewController.m */; };
+		E1F9643E2258E22100DA041A /* AMYMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F9643D2258E22100DA041A /* AMYMeViewController.m */; };
+		E1F964432258E84200DA041A /* AMYView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F964422258E84200DA041A /* AMYView.m */; };
+		E1F964532259D80500DA041A /* AMYChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F964522259D80500DA041A /* AMYChatCell.m */; };
+		E1F964542259F2AA00DA041A /* Chats.json in Resources */ = {isa = PBXBuildFile; fileRef = E1F964502259D13D00DA041A /* Chats.json */; };
+		E1F9645B225B29FA00DA041A /* AMYChats.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F9645A225B29FA00DA041A /* AMYChats.m */; };
+		E1F9645F225C353F00DA041A /* AMYContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F9645E225C353F00DA041A /* AMYContacts.m */; };
+		E1F964632264B98800DA041A /* AMYContactGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F964622264B98800DA041A /* AMYContactGroup.m */; };
+		E1F964642264C02300DA041A /* contacts.json in Resources */ = {isa = PBXBuildFile; fileRef = E1F9645C225C339700DA041A /* contacts.json */; };
+		E1F964652265733600DA041A /* AMYContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F964372258E1F900DA041A /* AMYContactsViewController.m */; };
+		E1F964682265AFEF00DA041A /* AMYMeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F964672265AFEE00DA041A /* AMYMeView.m */; };
+		E1F9647622680E6100DA041A /* discovery.json in Resources */ = {isa = PBXBuildFile; fileRef = E1F9647522680E6000DA041A /* discovery.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1F964112258DE0A00DA041A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1F963F02258DE0600DA041A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1F963F72258DE0600DA041A;
+			remoteInfo = amywechat;
+		};
+		E1F9641C2258DE0A00DA041A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1F963F02258DE0600DA041A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1F963F72258DE0600DA041A;
+			remoteInfo = amywechat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B30D148AC5C4805956E1A01 /* Pods-amywechat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amywechat.debug.xcconfig"; path = "Target Support Files/Pods-amywechat/Pods-amywechat.debug.xcconfig"; sourceTree = "<group>"; };
+		1011C721FA7BC547DE720B84 /* Pods-amywechatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amywechatUITests.release.xcconfig"; path = "Target Support Files/Pods-amywechatUITests/Pods-amywechatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		258C494B92F4913846D681F2 /* Pods-amywechatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amywechatUITests.debug.xcconfig"; path = "Target Support Files/Pods-amywechatUITests/Pods-amywechatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		71CDDC12414E7F780ADB179D /* Pods-amywechat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amywechat.release.xcconfig"; path = "Target Support Files/Pods-amywechat/Pods-amywechat.release.xcconfig"; sourceTree = "<group>"; };
+		A773CE5C8576C91F15D8C6F7 /* libPods-amywechatTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-amywechatTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9A92EFCAEE5B6CF091BB91 /* libPods-amywechatUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-amywechatUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1F963F82258DE0600DA041A /* amywechat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = amywechat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1F963FB2258DE0600DA041A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1F963FC2258DE0600DA041A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1F963FE2258DE0600DA041A /* AMYDataLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMYDataLoader.h; sourceTree = "<group>"; };
+		E1F963FF2258DE0600DA041A /* AMYDataLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMYDataLoader.m; sourceTree = "<group>"; };
+		E1F964022258DE0600DA041A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1F964042258DE0A00DA041A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1F964072258DE0A00DA041A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1F964092258DE0A00DA041A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1F9640A2258DE0A00DA041A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1F964102258DE0A00DA041A /* amywechatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = amywechatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1F964142258DE0A00DA041A /* amywechatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = amywechatTests.m; sourceTree = "<group>"; };
+		E1F964162258DE0A00DA041A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1F9641B2258DE0A00DA041A /* amywechatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = amywechatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1F9641F2258DE0A00DA041A /* amywechatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = amywechatUITests.m; sourceTree = "<group>"; };
+		E1F964212258DE0A00DA041A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1F964332258E16000DA041A /* AMYChatsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMYChatsViewController.h; sourceTree = "<group>"; };
+		E1F964342258E16000DA041A /* AMYChatsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMYChatsViewController.m; sourceTree = "<group>"; };
+		E1F964362258E1F800DA041A /* AMYContactsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMYContactsViewController.h; sourceTree = "<group>"; };
+		E1F964372258E1F900DA041A /* AMYContactsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMYContactsViewController.m; sourceTree = "<group>"; };
+		E1F964392258E20D00DA041A /* AMYDiscoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMYDiscoverViewController.h; sourceTree = "<group>"; };
+		E1F9643A2258E20D00DA041A /* AMYDiscoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMYDiscoverViewController.m; sourceTree = "<group>"; };
+		E1F9643C2258E22100DA041A /* AMYMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMYMeViewController.h; sourceTree = "<group>"; };
+		E1F9643D2258E22100DA041A /* AMYMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMYMeViewController.m; sourceTree = "<group>"; };
+		E1F964412258E84200DA041A /* AMYView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMYView.h; sourceTree = "<group>"; };
+		E1F964422258E84200DA041A /* AMYView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMYView.m; sourceTree = "<group>"; };
+		E1F964502259D13D00DA041A /* Chats.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Chats.json; sourceTree = "<group>"; };
+		E1F964512259D80500DA041A /* AMYChatCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMYChatCell.h; sourceTree = "<group>"; };
+		E1F964522259D80500DA041A /* AMYChatCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMYChatCell.m; sourceTree = "<group>"; };
+		E1F96459225B29FA00DA041A /* AMYChats.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMYChats.h; sourceTree = "<group>"; };
+		E1F9645A225B29FA00DA041A /* AMYChats.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMYChats.m; sourceTree = "<group>"; };
+		E1F9645C225C339700DA041A /* contacts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = contacts.json; sourceTree = "<group>"; };
+		E1F9645D225C353F00DA041A /* AMYContacts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMYContacts.h; sourceTree = "<group>"; };
+		E1F9645E225C353F00DA041A /* AMYContacts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMYContacts.m; sourceTree = "<group>"; };
+		E1F964612264B98700DA041A /* AMYContactGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMYContactGroup.h; sourceTree = "<group>"; };
+		E1F964622264B98800DA041A /* AMYContactGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMYContactGroup.m; sourceTree = "<group>"; };
+		E1F964662265AFEE00DA041A /* AMYMeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMYMeView.h; sourceTree = "<group>"; };
+		E1F964672265AFEE00DA041A /* AMYMeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMYMeView.m; sourceTree = "<group>"; };
+		E1F9647522680E6000DA041A /* discovery.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = discovery.json; path = amywechat/discovery.json; sourceTree = SOURCE_ROOT; };
+		E873A1F82273DDD06BC4253A /* Pods-amywechatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amywechatTests.debug.xcconfig"; path = "Target Support Files/Pods-amywechatTests/Pods-amywechatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECD6EDD8503AA24E5B61BE0F /* libPods-amywechat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-amywechat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8CEE8CED037F96ABF016C37 /* Pods-amywechatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amywechatTests.release.xcconfig"; path = "Target Support Files/Pods-amywechatTests/Pods-amywechatTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1F963F52258DE0600DA041A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D460EFD71A62ED8F27F3A704 /* libPods-amywechat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1F9640D2258DE0A00DA041A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB70FB21E552BC6CA1E1A464 /* libPods-amywechatTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1F964182258DE0A00DA041A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2449F8F3CDD13AAFADC5CD85 /* libPods-amywechatUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16A141F4C820610E4E7A48AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECD6EDD8503AA24E5B61BE0F /* libPods-amywechat.a */,
+				A773CE5C8576C91F15D8C6F7 /* libPods-amywechatTests.a */,
+				AD9A92EFCAEE5B6CF091BB91 /* libPods-amywechatUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EBFA2E10D0CDB8C46A87CAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B30D148AC5C4805956E1A01 /* Pods-amywechat.debug.xcconfig */,
+				71CDDC12414E7F780ADB179D /* Pods-amywechat.release.xcconfig */,
+				E873A1F82273DDD06BC4253A /* Pods-amywechatTests.debug.xcconfig */,
+				F8CEE8CED037F96ABF016C37 /* Pods-amywechatTests.release.xcconfig */,
+				258C494B92F4913846D681F2 /* Pods-amywechatUITests.debug.xcconfig */,
+				1011C721FA7BC547DE720B84 /* Pods-amywechatUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E1F963EF2258DE0600DA041A = {
+			isa = PBXGroup;
+			children = (
+				E1F963FA2258DE0600DA041A /* amywechat */,
+				E1F964132258DE0A00DA041A /* amywechatTests */,
+				E1F9641E2258DE0A00DA041A /* amywechatUITests */,
+				E1F963F92258DE0600DA041A /* Products */,
+				5EBFA2E10D0CDB8C46A87CAA /* Pods */,
+				16A141F4C820610E4E7A48AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1F963F92258DE0600DA041A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1F963F82258DE0600DA041A /* amywechat.app */,
+				E1F964102258DE0A00DA041A /* amywechatTests.xctest */,
+				E1F9641B2258DE0A00DA041A /* amywechatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1F963FA2258DE0600DA041A /* amywechat */ = {
+			isa = PBXGroup;
+			children = (
+				E1F96458225B24DA00DA041A /* controllers */,
+				E1F96457225B24CF00DA041A /* views */,
+				E1F96455225B24B500DA041A /* models */,
+				E1F9647522680E6000DA041A /* discovery.json */,
+				E1F9645C225C339700DA041A /* contacts.json */,
+				E1F964502259D13D00DA041A /* Chats.json */,
+				E1F963FB2258DE0600DA041A /* AppDelegate.h */,
+				E1F963FC2258DE0600DA041A /* AppDelegate.m */,
+				E1F964012258DE0600DA041A /* Main.storyboard */,
+				E1F964042258DE0A00DA041A /* Assets.xcassets */,
+				E1F964062258DE0A00DA041A /* LaunchScreen.storyboard */,
+				E1F964092258DE0A00DA041A /* Info.plist */,
+				E1F9640A2258DE0A00DA041A /* main.m */,
+			);
+			path = amywechat;
+			sourceTree = "<group>";
+		};
+		E1F964132258DE0A00DA041A /* amywechatTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1F964142258DE0A00DA041A /* amywechatTests.m */,
+				E1F964162258DE0A00DA041A /* Info.plist */,
+			);
+			path = amywechatTests;
+			sourceTree = "<group>";
+		};
+		E1F9641E2258DE0A00DA041A /* amywechatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1F9641F2258DE0A00DA041A /* amywechatUITests.m */,
+				E1F964212258DE0A00DA041A /* Info.plist */,
+			);
+			path = amywechatUITests;
+			sourceTree = "<group>";
+		};
+		E1F96455225B24B500DA041A /* models */ = {
+			isa = PBXGroup;
+			children = (
+				E1F96459225B29FA00DA041A /* AMYChats.h */,
+				E1F9645A225B29FA00DA041A /* AMYChats.m */,
+				E1F9645D225C353F00DA041A /* AMYContacts.h */,
+				E1F9645E225C353F00DA041A /* AMYContacts.m */,
+				E1F964612264B98700DA041A /* AMYContactGroup.h */,
+				E1F964622264B98800DA041A /* AMYContactGroup.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		E1F96457225B24CF00DA041A /* views */ = {
+			isa = PBXGroup;
+			children = (
+				E1F964512259D80500DA041A /* AMYChatCell.h */,
+				E1F964522259D80500DA041A /* AMYChatCell.m */,
+				E1F964412258E84200DA041A /* AMYView.h */,
+				E1F964422258E84200DA041A /* AMYView.m */,
+				E1F964662265AFEE00DA041A /* AMYMeView.h */,
+				E1F964672265AFEE00DA041A /* AMYMeView.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		E1F96458225B24DA00DA041A /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1F963FE2258DE0600DA041A /* AMYDataLoader.h */,
+				E1F963FF2258DE0600DA041A /* AMYDataLoader.m */,
+				E1F964332258E16000DA041A /* AMYChatsViewController.h */,
+				E1F964342258E16000DA041A /* AMYChatsViewController.m */,
+				E1F964362258E1F800DA041A /* AMYContactsViewController.h */,
+				E1F964372258E1F900DA041A /* AMYContactsViewController.m */,
+				E1F964392258E20D00DA041A /* AMYDiscoverViewController.h */,
+				E1F9643A2258E20D00DA041A /* AMYDiscoverViewController.m */,
+				E1F9643C2258E22100DA041A /* AMYMeViewController.h */,
+				E1F9643D2258E22100DA041A /* AMYMeViewController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1F963F72258DE0600DA041A /* amywechat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1F964242258DE0A00DA041A /* Build configuration list for PBXNativeTarget "amywechat" */;
+			buildPhases = (
+				B8C3BFFDC9CC47923402B7ED /* [CP] Check Pods Manifest.lock */,
+				E1F963F42258DE0600DA041A /* Sources */,
+				E1F963F52258DE0600DA041A /* Frameworks */,
+				E1F963F62258DE0600DA041A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = amywechat;
+			productName = amywechat;
+			productReference = E1F963F82258DE0600DA041A /* amywechat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1F9640F2258DE0A00DA041A /* amywechatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1F964272258DE0A00DA041A /* Build configuration list for PBXNativeTarget "amywechatTests" */;
+			buildPhases = (
+				C0A88DC86D8501DB6610F68B /* [CP] Check Pods Manifest.lock */,
+				E1F9640C2258DE0A00DA041A /* Sources */,
+				E1F9640D2258DE0A00DA041A /* Frameworks */,
+				E1F9640E2258DE0A00DA041A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1F964122258DE0A00DA041A /* PBXTargetDependency */,
+			);
+			name = amywechatTests;
+			productName = amywechatTests;
+			productReference = E1F964102258DE0A00DA041A /* amywechatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1F9641A2258DE0A00DA041A /* amywechatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1F9642A2258DE0A00DA041A /* Build configuration list for PBXNativeTarget "amywechatUITests" */;
+			buildPhases = (
+				5B24C51ADB686FF4872D8794 /* [CP] Check Pods Manifest.lock */,
+				E1F964172258DE0A00DA041A /* Sources */,
+				E1F964182258DE0A00DA041A /* Frameworks */,
+				E1F964192258DE0A00DA041A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1F9641D2258DE0A00DA041A /* PBXTargetDependency */,
+			);
+			name = amywechatUITests;
+			productName = amywechatUITests;
+			productReference = E1F9641B2258DE0A00DA041A /* amywechatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1F963F02258DE0600DA041A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Amy;
+				TargetAttributes = {
+					E1F963F72258DE0600DA041A = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					E1F9640F2258DE0A00DA041A = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = E1F963F72258DE0600DA041A;
+					};
+					E1F9641A2258DE0A00DA041A = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = E1F963F72258DE0600DA041A;
+					};
+				};
+			};
+			buildConfigurationList = E1F963F32258DE0600DA041A /* Build configuration list for PBXProject "amywechat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1F963EF2258DE0600DA041A;
+			productRefGroup = E1F963F92258DE0600DA041A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1F963F72258DE0600DA041A /* amywechat */,
+				E1F9640F2258DE0A00DA041A /* amywechatTests */,
+				E1F9641A2258DE0A00DA041A /* amywechatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1F963F62258DE0600DA041A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1F964082258DE0A00DA041A /* LaunchScreen.storyboard in Resources */,
+				E1F964052258DE0A00DA041A /* Assets.xcassets in Resources */,
+				E1F964542259F2AA00DA041A /* Chats.json in Resources */,
+				E1F964642264C02300DA041A /* contacts.json in Resources */,
+				E1F964032258DE0600DA041A /* Main.storyboard in Resources */,
+				E1F9647622680E6100DA041A /* discovery.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1F9640E2258DE0A00DA041A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1F964192258DE0A00DA041A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B24C51ADB686FF4872D8794 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-amywechatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8C3BFFDC9CC47923402B7ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-amywechat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0A88DC86D8501DB6610F68B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-amywechatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1F963F42258DE0600DA041A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1F964352258E16000DA041A /* AMYChatsViewController.m in Sources */,
+				E1F964682265AFEF00DA041A /* AMYMeView.m in Sources */,
+				E1F9645B225B29FA00DA041A /* AMYChats.m in Sources */,
+				E1F964002258DE0600DA041A /* AMYDataLoader.m in Sources */,
+				E1F964632264B98800DA041A /* AMYContactGroup.m in Sources */,
+				E1F9645F225C353F00DA041A /* AMYContacts.m in Sources */,
+				E1F9640B2258DE0A00DA041A /* main.m in Sources */,
+				E1F964532259D80500DA041A /* AMYChatCell.m in Sources */,
+				E1F9643E2258E22100DA041A /* AMYMeViewController.m in Sources */,
+				E1F963FD2258DE0600DA041A /* AppDelegate.m in Sources */,
+				E1F964432258E84200DA041A /* AMYView.m in Sources */,
+				E1F9643B2258E20D00DA041A /* AMYDiscoverViewController.m in Sources */,
+				E1F964652265733600DA041A /* AMYContactsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1F9640C2258DE0A00DA041A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1F964152258DE0A00DA041A /* amywechatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1F964172258DE0A00DA041A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1F964202258DE0A00DA041A /* amywechatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1F964122258DE0A00DA041A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1F963F72258DE0600DA041A /* amywechat */;
+			targetProxy = E1F964112258DE0A00DA041A /* PBXContainerItemProxy */;
+		};
+		E1F9641D2258DE0A00DA041A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1F963F72258DE0600DA041A /* amywechat */;
+			targetProxy = E1F9641C2258DE0A00DA041A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1F964012258DE0600DA041A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1F964022258DE0600DA041A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1F964062258DE0A00DA041A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1F964072258DE0A00DA041A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1F964222258DE0A00DA041A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1F964232258DE0A00DA041A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1F964252258DE0A00DA041A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B30D148AC5C4805956E1A01 /* Pods-amywechat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7G879R35A;
+				INFOPLIST_FILE = amywechat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = amy.amywechat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1F964262258DE0A00DA041A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71CDDC12414E7F780ADB179D /* Pods-amywechat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7G879R35A;
+				INFOPLIST_FILE = amywechat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = amy.amywechat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1F964282258DE0A00DA041A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E873A1F82273DDD06BC4253A /* Pods-amywechatTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = amywechatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = amy.amywechatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/amywechat.app/amywechat";
+			};
+			name = Debug;
+		};
+		E1F964292258DE0A00DA041A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8CEE8CED037F96ABF016C37 /* Pods-amywechatTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = amywechatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = amy.amywechatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/amywechat.app/amywechat";
+			};
+			name = Release;
+		};
+		E1F9642B2258DE0A00DA041A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 258C494B92F4913846D681F2 /* Pods-amywechatUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = amywechatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = amy.amywechatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = amywechat;
+			};
+			name = Debug;
+		};
+		E1F9642C2258DE0A00DA041A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1011C721FA7BC547DE720B84 /* Pods-amywechatUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = amywechatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = amy.amywechatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = amywechat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1F963F32258DE0600DA041A /* Build configuration list for PBXProject "amywechat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1F964222258DE0A00DA041A /* Debug */,
+				E1F964232258DE0A00DA041A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1F964242258DE0A00DA041A /* Build configuration list for PBXNativeTarget "amywechat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1F964252258DE0A00DA041A /* Debug */,
+				E1F964262258DE0A00DA041A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1F964272258DE0A00DA041A /* Build configuration list for PBXNativeTarget "amywechatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1F964282258DE0A00DA041A /* Debug */,
+				E1F964292258DE0A00DA041A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1F9642A2258DE0A00DA041A /* Build configuration list for PBXNativeTarget "amywechatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1F9642B2258DE0A00DA041A /* Debug */,
+				E1F9642C2258DE0A00DA041A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1F963F02258DE0600DA041A /* Project object */;
+}

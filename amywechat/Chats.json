@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Moments",
+        "image": "icon_00",
+        "message": "amymymymymymymymymymy",
+        "mute": false
+    },
+    {
+        "name": "Scan",
+        "image": "icon_01",
+        "message": "amymymymymymymymymymymymymymymymymymymymymymymymymymymymy",
+        "mute": false
+    },
+    {
+        "name": "Shake",
+        "image": "icon_02",
+        "message": "amymymymymymymymymymy",
+        "mute": false
+    },
+    {
+        "name": "Top Storis",
+        "image": "icon_03",
+        "message": "amymymymymymymymymymy",
+        "mute": false
+    },
+    {
+        "name": "Search",
+        "image": "icon_04",
+        "message": "amymymymymymymymymymyMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM",
+        "mute": true
+    },
+    {
+        "name": "People Nearby",
+        "image": "icon_05",
+        "message": "amymymymymymymymymymy",
+        "mute": false
+    },
+    {
+        "name": "Message in a Bottle",
+        "image": "icon_06",
+        "message": "amymymymymymymymymymy",
+        "mute": true
+    },
+    {
+        "name": "Games",
+        "image": "icon_07",
+        "message": "amymymymymymymymymymy",
+        "mute": false
+    },
+    {
+        "name": "Mini Programs",
+        "image": "icon_08",
+        "message": "amymymymymymymymymymy",
+        "mute": false
+    },
+    {
+        "name": "Moments",
+        "image": "icon_00",
+        "message": "amymymymymymymymymymy",
+        "mute": false
+    },
+    {
+        "name": "Scan",
+        "image": "icon_01",
+        "message": "amymymymymymymymymymymymymymymymymymymymymymymymymymymymy",
+        "mute": false
+    },
+    {
+        "name": "Shake",
+        "image": "icon_02",
+        "message": "amymymymymymymymymymy",
+        "mute": false
+    },
+    {
+        "name": "Top Storis",
+        "image": "icon_03",
+        "message": "amymymymymymymymymymy",
+        "mute": false
+    },
+    {
+        "name": "Search",
+        "image": "icon_04",
+        "message": "amymymymymymymymymymyMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM",
+        "mute": true
+    },
+    {
+        "name": "People Nearby",
+        "image": "icon_05",
+        "message": "amymymymymymymymymymy",
+        "mute": false
+    },
+    {
+        "name": "Message in a Bottle",
+        "image": "icon_06",
+        "message": "amymymymymymymymymymy",
+        "mute": true
+    },
+    {
+        "name": "Games",
+        "image": "icon_07",
+        "message": "amymymymymymymymymymy",
+        "mute": false
+    },
+    {
+        "name": "Mini Programs",
+        "image": "icon_08",
+        "message": "amymymymymymymymymymy",
+        "mute": false
+    }
+]
